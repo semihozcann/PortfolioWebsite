@@ -19,7 +19,8 @@ body {
 
 }
 
-/* All Finish */
+/* All End */
+
 
 
 /* Header Start */
@@ -68,10 +69,6 @@ body {
     display: block;
 }
 
-
-
-
-
 #navLogo {
     font-weight: 500;
     font-size: 20px;
@@ -81,7 +78,6 @@ body {
     border-radius: 56px;
 }
 
-
 #icon {
     margin-top: 7.5px;
     margin-left: 7.5px;
@@ -90,107 +86,14 @@ body {
 }
 
 
+/* Header End */
 
 
-/* #container {
-    width: 90%;
-    margin: auto;
-}
-
-a {
-    color: white;
-    text-decoration: none;
-}
-
-header nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 30px;
-}
-
-header nav #logo{
-    display: flex;
-}
-
-header{
-    width: 80%;
-    height: 100%;
-    border-bottom: 3px solid rgba(255, 255, 255, 0.06);
-    margin: auto;
-}
-
-#Semihozcan {
-    font-weight: 500;
-    font-size: 30px;
-    color: whitesmoke;
-    background-color: rgba(255, 255, 255, 0.06);
-    padding: 12px 24px;
-    border-radius: 56px;
-}
-
-#headerTitles {
-    font-weight: 400;
-    font-size: 20px;
-}
-
-
-header nav ul {
-    list-style: none;
-    display: flex;
-    column-gap: 30px;
-}
-
-#icon{
-    margin-top: 7.5px;
-    margin-left: 7.5px;
-    align-items: center; 
-    color: white;
-} 
-
-#iconContainer{
-    height: 60px;
-    width: 60px;
-    padding: 2px;
-    background-color: rgba(255, 255, 255, 0.06);
-    border-radius: 50%;
-}
-#iconContainer:hover{
-    background-color: rgba(255, 255, 255, 0.26);
-    } */
-
-
-
-/* Header Finish */
-
-
-/* Responsive start */
-
-
-@media only screen and (min-width: 350px) {
-
-    #bodyMenuImage1 {
-        left: 20%;
-    }
-
-}
-
-
-@media only screen and (min-width: 600px) {
-
-    #bodyMenuImage1 {
-        left: 20%;
-    }
-
-}
-
-
-
-
-/* Responsive end */
 
 /* Body Start */
 
+
+/* Home Page Start */
 
 #bodyLeftSideContents {
 
@@ -232,7 +135,8 @@ header nav ul {
     border-radius: 60px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     position: absolute;
-    margin-left: 40%;
+    margin: auto;
+    margin-left: -20%;
     background-image: url("img/Education.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -292,9 +196,6 @@ header nav ul {
 }
 
 
-
-
-
 #bodyList {
     list-style: none;
     margin: auto;
@@ -307,11 +208,18 @@ header nav ul {
 }
 
 #contentText {
-    background-color: rgba(255, 255, 255, 0.16);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgba(255, 255, 255, 0.26);
     padding: 5px 5px;
     border-radius: 25px;
+    color: black;
+    margin: 10px;
 
 }
+
+/* Home Page End */
+
+/* Content Start */
 
 #bodyMenuImage1Content,
 #bodyMenuImage2Content,
@@ -322,12 +230,46 @@ header nav ul {
     color: black;
     font: optional;
     padding: 10%;
-    word-wrap: break-word;
+
 }
 
-#progressBar{
+#progressBar {
     background-color: #35211d;
     color: white;
 }
 
+
+#projectButton {
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    background-color: #35211d;
+    color: whitesmoke;
+
+}
+
+#projectTitle{
+    vertical-align: middle
+}
+
+#projectName{
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+
+#contactFormTitle {
+    text-align: center;
+    margin: 35px 0 20px 0 !important;
+  }
+  
+
+#exampleFormControlTextarea1, #exampleFormControlInput1{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+  
+
+/* Content End */
+  
 /* Body Finish */

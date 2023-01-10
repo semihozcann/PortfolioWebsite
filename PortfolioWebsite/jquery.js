@@ -9,11 +9,11 @@ $(document).ready(function () {
     $("#education").click(function () {
       if (bodyMenuImage1Width == 120 || bodyMenuImage1Width == null) {
         $("#bodyMenuImage1").animate({
-          left: '20px',
+          left: '20%',
           top: '20%',
         }, 1000, function () {
           $("#bodyMenuImage1").animate({
-            left: '-30%',
+            left: '30%',
             right: '10%',
             height: '100%',
             width: '80%',
@@ -85,7 +85,7 @@ $(document).ready(function () {
     $("#ability").click(function () {
       if (bodyMenuImage2Width == 120 || bodyMenuImage2Width == null) {
         $("#bodyMenuImage2").animate({
-          left: '20px',
+          left: '20%',
           top: '20%',
         }, 1000, function () {
           $("#bodyMenuImage2").animate({
@@ -162,7 +162,7 @@ $(document).ready(function () {
     $("#project").click(function () {
       if (bodyMenuImage3Width == 120 || bodyMenuImage3Width == null) {
         $("#bodyMenuImage3").animate({
-          left: '20px',
+          left: '20%',
           top: '20%',
         }, 1000, function () {
           $("#bodyMenuImage3").animate({
@@ -237,7 +237,7 @@ $(document).ready(function () {
     $("#contact").click(function () {
       if (bodyMenuImage4Width == 120 || bodyMenuImage4Width == null) {
         $("#bodyMenuImage4").animate({
-          left: '20px',
+          left: '20%',
           top: '20%',
         }, 1000, function () {
           $("#bodyMenuImage4").animate({
